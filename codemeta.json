@@ -1,0 +1,18 @@
+{
+    "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
+    "@type": "SoftwareSourceCode",
+    "codeRepository": "https://github.com/dreynes/AI-and-open-science.git",
+    "contIntegration": "https://github.com/dreynes/AI-and-open-science.git",
+    "dateCreated": "2023-02-07",
+    "issueTracker": "https://github.com/dreynes/AI-and-open-science/issues",
+    "name": "Artificial intelligence and open science in research software engineering",
+    "description": "Repository for the subject called artificial intelligence and open science in research software engineering",
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Daniel",
+            "familyName": "Reynés Fernández",
+            "email": "d.reynes@alumnos.upm.es"
+        }
+    ]
+}
