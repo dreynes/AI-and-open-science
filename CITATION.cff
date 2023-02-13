@@ -1,0 +1,18 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: >-
+  Artificial intelligence and apen science In research
+  software engineering
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Daniel
+    family-names: Reynés Fernández
+    email: d.reynes@alumnos.upm.es
+    affiliation: Estudiante de la UPM
+repository-code: 'https://github.com/dreynes/AI-and-open-science'
+license: GPL-3.0
