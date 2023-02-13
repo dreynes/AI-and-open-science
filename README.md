@@ -1,2 +1,2 @@
 # AI-and-open-science
-# License
+# [License](LICENSE)
