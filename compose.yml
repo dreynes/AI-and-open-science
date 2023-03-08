@@ -1,0 +1,28 @@
+version: "3"
+
+services:
+  grobid:
+    image: lfoppiano/grobid:0.7.2
+    ports:
+      - "8070:8070"
+    container_name: grobid  
+    restart: always
+    networks:
+      - grobid	
+  client:
+    image: pdf-proc
+    container_name: client
+    depends_on:
+      - grobid
+    build: .	  
+    volumes:
+      - ./pdfs:/home/root/project/pdfs:rw
+      - ./out_docker/links:/home/root/project/links:rw
+      - ./out_docker/figures:/home/root/project/figures:rw
+      - ./out_docker/wordclouds:/home/root/project/wordclouds:rw
+    networks:
+      - grobid	  
+    command: python script.py
+networks:
+  grobid:  
+
