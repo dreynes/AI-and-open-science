@@ -80,7 +80,7 @@ First install [conda](https://conda.io/projects/conda/en/latest/user-guide/insta
 ```
 # Workflow
 
-![workflow](https://github.com/dreynes/AI-and-open-science//main/workflow/workflow.png?raw=true)
+![workflow](https://github.com/dreynes/AI-and-open-science//main/tree/workflow/workflow.png?raw=true)
 
 
 
