@@ -16,7 +16,7 @@ GNU GENERAL PUBLIC LICENSE
 
 # Using the software with docker
 If you want to use docker to use the software, you should do the following steps
-Before start, make sure that you have docker installed
+Before start, make sure that you have docker and docker compose installed
 - First of all clone the repository in your local
 ```bash
   git clone https://github.com/dreynes/AI-and-open-science.git
@@ -35,7 +35,7 @@ docker logs client
 ```
 The results will be inside a folder called "out_docker"
 
-- If a connection problem apperar try cchanging the first line of the config.json and change grobid for our ip
+- If a connection problem apperar try cchanging the first line of the config.json and change grobid for your ip
 ```bash
 "grobid_server": "http://grobid:8070",
 ```
