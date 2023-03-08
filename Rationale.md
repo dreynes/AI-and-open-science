@@ -1,1 +1,3 @@
-# Task 1
+# How I have validated each of the answers
+
+## Task 1
