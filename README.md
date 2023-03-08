@@ -17,18 +17,33 @@ GNU GENERAL PUBLIC LICENSE
 #Before start
 Make sure that you have docker installed
 
-#Using the software
-First of all clone the repository in your local
+#Using the software with docker
+If you want to use docker to use the software, you should do the following steps
+- First of all clone the repository in your local
 ```bash
   git clone https://github.com/dreynes/AI-and-open-science.git
 ```
-We move to inside the repository
+- We move to inside the repository
 ```bash
   cd AI--amd-open-science/
 ```
-Now we have to change first line of the config.json and change localhost for our ip
+- Now we can create the containers executing:
 ```bash
-"grobid_server": "http://localhost:8070",
+docker compose up -d
 ```
+- Then for execute the program use:
+```bash
+docker logs client
+```
+The results will be inside a folder called "out_docker"
+
+- If a connection problem apperar try cchanging the first line of the config.json and change grobid for our ip
+```bash
+"grobid_server": "http://grobid:8070",
+```
+
+
+
+
 
 
