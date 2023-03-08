@@ -78,7 +78,9 @@ First install [conda](https://conda.io/projects/conda/en/latest/user-guide/insta
 ```bash
   python3 script.py
 ```
+# Workflow
 
+![workflow](https://github.com/dreynes/AI-and-open-science//main/workflow/workflow.png?raw=true)
 
 
 
