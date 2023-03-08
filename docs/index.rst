@@ -114,7 +114,7 @@ Workflow
 
    workflow
 
-.. |Zenodo doi badge| image:: https://img.shields.io/badge/DOI-10.5281%2Fzenodo.599152576-red.svg
+.. image:: https://zenodo.org/badge/599152576.svg  :target: https://zenodo.org/badge/latestdoi/599152576
 .. |Documentation Status| image:: https://readthedocs.org/projects/ai-and-open-science/badge/?version=latest
    :target: https://ai-and-open-science.readthedocs.io/en/latest/?badge=latest
 .. |Python| image:: https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54
