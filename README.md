@@ -53,16 +53,6 @@ First install [conda](https://conda.io/projects/conda/en/latest/user-guide/insta
   docker pull lfoppiano/grobid:0.7.2
   docker run -t --rm -p 8070:8070 lfoppiano/grobid:0.7.2
 ```
-
-
-- Now, create an anaconda environment activate it and install the dependences
-
-```bash
-  conda create -n newenv
-  conda activate newenv 
-  python3 -m pip install --upgrade pip
-  pip install -r requirements.txt 
-``` 
 - Next, install the grobid client
 
 ```bash
@@ -71,6 +61,14 @@ First install [conda](https://conda.io/projects/conda/en/latest/user-guide/insta
   python3 setup.py install
   cd ..
 ```
+- Now, create an anaconda environment activate it and install the dependences
+
+```bash
+  conda create -n newenv
+  conda activate newenv 
+  python3 -m pip install --upgrade pip
+  pip install -r requirements.txt 
+``` 
 - To finish execute the python file
 ```bash
   python3 script.py
