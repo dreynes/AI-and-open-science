@@ -47,6 +47,11 @@ First install [conda](https://conda.io/projects/conda/en/latest/user-guide/insta
 ```bash
   git clone https://github.com/dreynes/AI-and-open-science.git
 ```
+- Change the first line of the config.json and change grobid for your ip or localhost
+```bash
+"grobid_server": "http://grobid:8070", -> "grobid_server": "http://localhost:8070",
+```
+
 - Open a terminal execute this command to deploy grobid
 
 ```bash
