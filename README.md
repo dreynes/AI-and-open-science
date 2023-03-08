@@ -42,6 +42,40 @@ The results will be inside a folder called "out_docker"
 
 # Using the software without docker
 Alternatively here are instructions on how to run the software without docker in case you prefer this option
+First install [conda](https://conda.io/projects/conda/en/latest/user-guide/install/index.html) and [docker](https://www.docker.com/)
+- Next clone the repository in your local
+```bash
+  git clone https://github.com/dreynes/AI-and-open-science.git
+```
+- Open a terminal execute this command to deploy grobid
+
+```bash
+  docker pull lfoppiano/grobid:0.7.2
+  docker run -t --rm -p 8070:8070 lfoppiano/grobid:0.7.2
+```
+
+
+- Now, create an anaconda environment activate it and install the dependences
+
+```bash
+  conda create -n newenv
+  conda activate newenv 
+  python3 -m pip install --upgrade pip
+  pip install -r requirements.txt 
+``` 
+- Next, install the grobid client
+
+```bash
+  git clone https://github.com/kermitt2/grobid_client_python
+  cd grobid_client_python
+  python3 setup.py install
+  cd ..
+```
+- To finish execute the python file
+```bash
+  python3 script.py
+```
+
 
 
 
