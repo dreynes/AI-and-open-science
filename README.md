@@ -40,8 +40,8 @@ The results will be inside a folder called "out_docker"
 "grobid_server": "http://grobid:8070",
 ```
 
-
-
+# Using the software without docker
+Alternatively here are instructions on how to run the software without docker in case you prefer this option
 
 
 
