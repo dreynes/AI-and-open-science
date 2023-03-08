@@ -1,5 +1,8 @@
-|Zenodo doi badge| |Documentation Status| |Python| |GitHub| #
-AI-and-open-science Repository created for uploading the assigment of
+|Zenodo doi badge| |Documentation Status| |Python| |GitHub| 
+
+AI-and-open-science
+=======================
+Repository created for uploading the assigment of
 Artificial Intelligence And Open Science In Research Software
 Engineering subject
 
