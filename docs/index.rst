@@ -1,10 +1,6 @@
-|Zenodo doi badge| |Documentation Status| |Python| |GitHub| 
-
-AI-and-open-science
-=======================
-Repository created for uploading the assigment of
-Artificial Intelligence And Open Science In Research Software
-Engineering subject
+|DOI| |Documentation Status| |Python| |GitHub| # AI-and-open-science
+Repository created for uploading the assigment of Artificial
+Intelligence And Open Science In Research Software Engineering subject
 
 The assigment consists in analysing papers with grobid and python: -
 Draw a keyword cloud based on the abstract information. - Create a
@@ -114,7 +110,8 @@ Workflow
 
    workflow
 
-.. |Zenodo doi badge| image:: https://zenodo.org/badge/599152576.svg  :target: https://zenodo.org/badge/latestdoi/599152576
+.. |DOI| image:: https://zenodo.org/badge/599152576.svg
+   :target: https://zenodo.org/badge/latestdoi/599152576
 .. |Documentation Status| image:: https://readthedocs.org/projects/ai-and-open-science/badge/?version=latest
    :target: https://ai-and-open-science.readthedocs.io/en/latest/?badge=latest
 .. |Python| image:: https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54
