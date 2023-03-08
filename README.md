@@ -14,11 +14,9 @@ The assigment consists in analysing papers with grobid and python:
 # [License](LICENSE)
 GNU GENERAL PUBLIC LICENSE
 
-#Before start
-Make sure that you have docker installed
-
-#Using the software with docker
+# Using the software with docker
 If you want to use docker to use the software, you should do the following steps
+Before start, make sure that you have docker installed
 - First of all clone the repository in your local
 ```bash
   git clone https://github.com/dreynes/AI-and-open-science.git
